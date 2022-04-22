@@ -1,0 +1,18 @@
+/*comentario*/
+header {
+  width: 120px;
+  box-shadow: 1px black; }
+  header h1 {
+    color: aqua;
+    font-size: 20px; }
+  header nav ul {
+    background-color: #cad15f;
+    display: flex;
+    justify-content: center; }
+    header nav ul li {
+      background-color: yellow; }
+      header nav ul li:hover {
+        background-color: red; }
+
+body {
+  font-size: 16px; }

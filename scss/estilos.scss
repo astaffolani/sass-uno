@@ -1,0 +1,40 @@
+/*comentario*/
+//comentario
+//segundo super poder de sass
+//variables
+
+@import "../scss/utilidades/variables";
+@import "../scss/layout/nav"
+header{
+    width: $ancho-principal;
+    box-shadow:  1px black;
+
+ h1{color: aqua;
+       font-size: 20px;
+    }
+    nav{
+        ul{
+            background-color: $color-principal;
+            display: flex;
+            justify-content: center;
+            li{
+                background-color: yellow;
+                &:hover{
+                    background-color: red;
+                }
+            }
+        }
+    }
+}
+
+
+
+body{
+    font-size: $fuente;
+}
+
+
+
+   
+   
+   
